@@ -7,5 +7,73 @@ html {
 }
 
 body {
-    
+    background: #ededed;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1,5m;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header, footer {
+    width: 100%;
+    padding: 20px 0px;
+    background: url("../Assets/cover.jpg");
+    box-shadow: 0px 0px 15px #333;
+}
+
+header h1, h2 {
+    color: #000;
+    font-size: 1,5em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer {
+    border-top: 2px solid #fff;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+
+section h2 {
+    margin: 20px auto;
+    width: 90%;
+}
+
+section > div {
+    width: 90%;
+}
+
+.contact-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.contact-flex p:first-child {
+    flex: 0 0 40%;
+}
+
+.contact-flex p:last-child {
+    flex: 0 0 60%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
 }
